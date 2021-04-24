@@ -1,9 +1,6 @@
 /**
- *
- * That's it. Stop using over complicated frameworks that get in your way.
- *
- * -Joe Walnes
- * MIT License. See https://github.com/joewalnes/jstinytest/
+ * This is a tiny libraray for unit testing for GJS
+ * Original idea from Joe Walnes, that developed https://github.com/joewalnes/jstinytest/:
  */
 var SimpleUnitTest = 
 class SimpleUnitTest{
@@ -20,7 +17,7 @@ class SimpleUnitTest{
             } catch (e) {
                 failures++;
                 log(`x ${testName}`);
-                log("\t" + e);
+                log("\t" + e.message);
                 log("\t" + e.stack);
             }
         }
