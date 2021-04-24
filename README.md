@@ -6,7 +6,7 @@ I'm was looking for a framework to test my develpments for GJS. All the testing 
 
 ## 10 second tutorial
 
-Download [simpleunittest.js]() and put in the same directory of your source code. Then create a test file, like `test.js` with at least this content,
+Download [simpleunittest.js](https://github.com/atareao/simpleunittest/raw/main/simpleunittest.js) and put in the same directory of your source code. Then create a test file, like `test.js` with at least this content,
 
 ```
 #!/usr/bin/env gjs
